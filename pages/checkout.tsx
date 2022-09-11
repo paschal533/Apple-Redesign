@@ -9,7 +9,7 @@ import Stripe from "stripe";
 import Button from "../components/Button";
 // import CheckoutProduct from "../components/CheckoutProduct";
 import { selectBasketItems, selectBasketTotal } from "../redux/basketSlice";
-//import CheckoutProduct from "../components/CheckoutProduct";
+import CheckoutProduct from "../components/CheckoutProduct";
 import { fetchPostJSON } from "../utils/api-helpers";
 import getStripe from "../utils/get-stripejs";
 
