@@ -11,7 +11,7 @@ import Button from "../components/Button";
 import { selectBasketItems, selectBasketTotal } from "../redux/basketSlice";
 import CheckoutProduct from "../components/CheckoutProduct";
 import { fetchPostJSON } from "../utils/api-helpers";
-//import getStripe from "../utils/get-stripejs";
+import getStripe from "../utils/get-stripejs";
 
 function Checkout() {
   const items = useSelector(selectBasketItems);
